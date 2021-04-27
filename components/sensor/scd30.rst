@@ -63,7 +63,7 @@ Configuration variables:
   automatic self calibration (ASC). Defaults to ``true``.
 
 - **ambient_pressure_compensation** (*Optional*, int): Enable compensation
-  of measured CO₂ values based on given ambient pressure in mBar.
+  of measured CO₂ values based on given ambient pressure in mBar, value in Bar (ex. 0.930)
 
 - **altitude_compensation** (*Optional*, int): Enable compensating
   deviations due to current altitude (in metres). Notice: setting
